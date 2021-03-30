@@ -1,0 +1,6 @@
+<!--pages/callup/callup.wxml-->
+
+<view>
+ <input class='input' type='number' value='{{inputValue}}' bindinput='inputHandle'></input>
+ <button class='callup' bindtap='callupClick'>拨打电话</button>
+</view>

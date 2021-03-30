@@ -1,0 +1,11 @@
+<!--pages/sysSegment/sysSegment.wxml-->
+
+<view style="padding: 30rpx 50rpx;">
+  <radio-group class="radio-group" bindchange="dateChange">
+    <label wx:for="{{dateList}}" wx:key="idx" wx:for-index="idx" class="radio {{ idx === dateIndex ? 'active' : ''}}">
+      <radio class="radio-item" value="{{item.id}}" checked="{{idx===0}}"/>{{item.value}}
+    </label>
+  </radio-group>
+</view>
+
+<view style='text-align: center'>{{dateIndex}}</view>

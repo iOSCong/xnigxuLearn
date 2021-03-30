@@ -1,0 +1,9 @@
+<!--pages/templateMessage/template.wxml-->
+
+<!-- <form bind:submit="testSubmit" report-submit="true">
+      <button formType="submit">发送模板消息</button>
+ </form> -->
+
+<view>
+  <button formType="submit" bindtap="testSubmit">授权订阅消息</button>
+</view>

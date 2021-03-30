@@ -1,0 +1,16 @@
+<!--pages/qrcode/qrcode.wxml-->
+
+<view class='container-box'>
+ <view class='img-box'>
+  <canvas class='canvas' canvas-id='canvas'></canvas>
+ </view>
+</view>
+
+<view class='inputView'>
+  <label class='label'>生成的中文二维码扫描不到内容</label>
+  <input class='input' placeholder='要生成二维码的内容' bindinput='inputchange'></input>
+</view>
+
+<view class='buttonView'>
+ <button class='button' bindtap='buttonClick'>生成二维码</button>
+</view>

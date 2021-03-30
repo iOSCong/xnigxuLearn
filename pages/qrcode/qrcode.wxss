@@ -1,0 +1,40 @@
+/* pages/qrcode/qrcode.wxss */
+
+Page {
+  background: #f1f1f1;
+}
+.container-box {
+  background-color: #efeff4;
+  height: 62vh
+}
+.img-box {
+  position: relative;
+  padding: 32rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #e5e5e5;
+}
+.canvas {
+  width: 686rpx;
+  height: 686rpx;
+  background:#f1f1f1;
+}
+.inputView {
+  margin: 10px 0;
+}
+.label {
+  padding: 0 15px;
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+}
+.input {
+  height: 50px;
+  padding: 0 15px;
+  background: #fff;
+}
+.buttonView {
+  padding:10px 15px;
+}
+.button {
+  background: #00CED1;
+  color: #fff;
+}

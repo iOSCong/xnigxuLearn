@@ -1,0 +1,5 @@
+/* pages/swiper/swiper.wxss */
+
+.slide-image {
+  width: 100%;
+}

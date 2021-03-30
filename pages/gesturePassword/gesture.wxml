@@ -1,0 +1,7 @@
+<!--pages/gesturePassword/gesture.wxml-->
+
+<view class="lock-box">
+    <view  class="lock-title {{titleColor}}">{{title}}</view>
+    <canvas disable-scroll="true" class="lock-cav" bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend" canvas-id="locker" style="width:686rpx;height:686rpx;"></canvas>
+</view>
+<view hidden="{{resetHidden}}" bindtap="lockreset" class="lock-reset">重置</view>

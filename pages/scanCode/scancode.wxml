@@ -1,0 +1,8 @@
+<!--pages/scanCode/scancode.wxml-->
+
+<view class='scanView'>
+  <button class='scanbutton' bindtap='scanButtonClick'>点击扫描二维码</button>
+</view>
+<view class='messageView'>
+  <label>{{scanedMessage}}</label>
+</view>

@@ -1,0 +1,15 @@
+/* pages/scanCode/scancode.wxss */
+
+.scanView {
+  padding: 20px 50px;
+  line-height: 44px;
+  background: #fff;
+}
+.scanbutton {
+  background: #00CED1;
+  color: #fff;
+}
+.messageView {
+ padding: 20px;
+ font-size: 15px;
+}

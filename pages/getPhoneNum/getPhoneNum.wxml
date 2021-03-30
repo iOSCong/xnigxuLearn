@@ -1,0 +1,5 @@
+<!--pages/getPhoneNum/getPhoneNum.wxml-->
+<!-- <text>pages/getPhoneNum/getPhoneNum.wxml</text> -->
+
+
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号授权</button>
