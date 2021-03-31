@@ -20,6 +20,7 @@ Page({
       { id: 7, title: '仿系统Segment选择器', path: '../sysSegment/sysSegment'},
       { id: 8, title: '订阅消息', path: '../templateMessage/template'},
       { id: 9, title: '获取手机号授权', path: '../getPhoneNum/getPhoneNum'},
+      { id: 10, title: '仿制宁夏银行贷款界面', path: '../nkxxLoans/nkxxLoans'},
     ]
 
   },

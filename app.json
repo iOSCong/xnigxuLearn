@@ -12,7 +12,8 @@
     "pages/swiper/swiper",
     "pages/sysSegment/sysSegment",
     "pages/templateMessage/template",
-    "pages/getPhoneNum/getPhoneNum"
+    "pages/getPhoneNum/getPhoneNum",
+    "pages/nkxxLoans/nkxxLoans"
   ],
   "window": {
     "backgroundTextStyle": "light",
